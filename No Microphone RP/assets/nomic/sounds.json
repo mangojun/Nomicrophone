@@ -1,0 +1,20 @@
+{
+    "talking.ya": {"sounds": [{"name": "nomic:talking/ya"}]},
+    "talking.neo": {"sounds": [{"name": "nomic:talking/neo"}]},
+    "talking.bab": {"sounds": [{"name": "nomic:talking/bab"}]},
+    "talking.hae": {"sounds": [{"name": "nomic:talking/hae"}]},
+    "talking.jo": {"sounds": [{"name": "nomic:talking/jo"}]},
+    "talking.ra": {"sounds": [{"name": "nomic:talking/ra"}]},
+    "talking.eung": {"sounds": [{"name": "nomic:talking/eung"}]},
+    "talking.na": {"sounds": [{"name": "nomic:talking/na"}]},
+    "talking.ga": {"sounds": [{"name": "nomic:talking/ga"}]},
+    "talking.a": {"sounds": [{"name": "nomic:talking/a"}]},
+    "talking.wae": {"sounds": [{"name": "nomic:talking/wae"}]},
+    "talking.i": {"sounds": [{"name": "nomic:talking/i"}]},
+    "talking.geo": {"sounds": [{"name": "nomic:talking/geo"}]},
+    "talking.sseo": {"sounds": [{"name": "nomic:talking/sseo"}]},
+    "talking.mweo": {"sounds": [{"name": "nomic:talking/mweo"}]},
+    "talking.ni": {"sounds": [{"name": "nomic:talking/ni"}]},
+    "talking.eol": {"sounds": [{"name": "nomic:talking/eol"}]},
+    "talking.gul": {"sounds": [{"name": "nomic:talking/gul"}]}
+}

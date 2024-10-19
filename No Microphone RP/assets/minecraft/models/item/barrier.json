@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/barrier"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 0},
+            "model": "nomic:item/none"
+        },
+        {
+            "predicate": {"custom_model_data": 1},
+            "model": "nomic:item/tab/home"
+        },
+        {
+            "predicate": {"custom_model_data": 2},
+            "model": "nomic:item/tab/minecraft"
+        },
+        {
+            "predicate": {"custom_model_data": 3},
+            "model": "nomic:item/tab/talking"
+        }
+    ]
+}

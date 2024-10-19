@@ -1,0 +1,9 @@
+# 기존 데이터 삭제
+$data remove entity @n[tag=nomic.ui_$(id), type=minecraft:chest_minecart] Items
+
+# 버튼 설정
+$data modify entity @n[tag=nomic.ui_$(id), type=minecraft:chest_minecart] Items append value {Slot: 0b, id: "minecraft:barrier", components: {"minecraft:custom_data": {nomic.button: {cmd: "data modify storage nomic:global data[$(id)].tab set value 0"}}, "minecraft:custom_model_data": 2, "minecraft:custom_name": '{"text": "홈", "color": "white", "italic": false}'}}
+$data modify entity @n[tag=nomic.ui_$(id), type=minecraft:chest_minecart] Items append value {Slot: 2b, id: "minecraft:barrier", components: {"minecraft:custom_data": {nomic.button: {cmd: "data modify storage nomic:global data[$(id)].tab set value 2"}}, "minecraft:custom_model_data": 0, "minecraft:custom_name": '{"text": "대화", "color": "white", "italic": false}'}}
+
+$data modify entity @n[tag=nomic.ui_$(id), type=minecraft:chest_minecart] Items append value {Slot: 9b, id: "minecraft:barrier", components: {"minecraft:custom_data": {nomic.button: {cmd: "function nomic:_/play_sound {id: $(id), sound: 'minecraft:entity.creeper.primed'}"}}, "minecraft:custom_model_data": 0, "minecraft:custom_name": '{"text": "치이익...", "color": "white", "italic": false}'}}
+$data modify entity @n[tag=nomic.ui_$(id), type=minecraft:chest_minecart] Items append value {Slot: 10b, id: "minecraft:barrier", components: {"minecraft:custom_data": {nomic.button: {cmd: "function nomic:_/play_sound {id: $(id), sound: 'minecraft:entity.evoker.prepare_wololo'}"}}, "minecraft:custom_model_data": 0, "minecraft:custom_name": '{"text": "울룰루~~", "color": "white", "italic": false}'}}

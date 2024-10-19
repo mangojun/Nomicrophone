@@ -1,0 +1,6 @@
+{
+    "parent": "nomic:item/gui",
+    "textures": {
+        "layer0": "nomic:item/tab/minecraft"
+    }
+}
